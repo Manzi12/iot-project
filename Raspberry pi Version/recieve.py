@@ -1,7 +1,7 @@
 # Import library and create instance of REST client.
 from Adafruit_IO import Client
 from time import sleep
-aio = Client('316faa4ea3654e338602246bed347b2c')
+aio = Client('ADAFRUIT KEY')
 
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
